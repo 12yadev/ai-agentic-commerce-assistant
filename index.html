@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agentic Commerce Assistant</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <div class="brand">Agent<span>Cart</span></div>
+    <div class="badge">AI Growth • Agentic Commerce</div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">INTELLIGENT SHOPPING AGENT</p>
+      <h1>Tell me what you need.<br><span>I'll find the best match.</span></h1>
+      <p class="subtitle">Describe your goal, budget and preferences in natural language. The agent analyzes your intent and ranks the most relevant products.</p>
+
+      <div class="search-box">
+        <textarea id="query" placeholder="Example: I need a laptop for coding under 70000 with a good display"></textarea>
+        <button onclick="recommend()">Find Products →</button>
+      </div>
+
+      <div class="chips">
+        <button onclick="usePrompt('I need a laptop for coding under 70000')">💻 Coding laptop</button>
+        <button onclick="usePrompt('Show wireless headphones under 5000 with good battery')">🎧 Headphones</button>
+        <button onclick="usePrompt('I want a phone under 30000 with a good camera')">📱 Camera phone</button>
+      </div>
+    </section>
+
+    <section id="status" class="status"></section>
+    <section id="results" class="results"></section>
+  </main>
+
+  <footer>Built as a hackathon prototype • Intent → Retrieve → Rank → Explain</footer>
+  <script src="/static/app.js"></script>
+</body>
+</html>
