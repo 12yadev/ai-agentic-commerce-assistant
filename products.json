@@ -1,0 +1,129 @@
+[
+  {
+    "id": 1,
+    "name": "CodeBook Pro 14",
+    "category": "laptop",
+    "price": 64999,
+    "rating": 4.7,
+    "tags": [
+      "coding",
+      "lightweight",
+      "display"
+    ],
+    "description": "14-inch performance laptop designed for programming and daily productivity."
+  },
+  {
+    "id": 2,
+    "name": "CreatorBook 15",
+    "category": "laptop",
+    "price": 72999,
+    "rating": 4.6,
+    "tags": [
+      "coding",
+      "display",
+      "premium"
+    ],
+    "description": "15-inch laptop with a high-quality display and strong multitasking performance."
+  },
+  {
+    "id": 3,
+    "name": "GameCore 15",
+    "category": "laptop",
+    "price": 69999,
+    "rating": 4.5,
+    "tags": [
+      "gaming",
+      "display",
+      "coding"
+    ],
+    "description": "Performance-focused laptop suitable for gaming, coding and demanding workloads."
+  },
+  {
+    "id": 4,
+    "name": "PixelView X",
+    "category": "phone",
+    "price": 28999,
+    "rating": 4.6,
+    "tags": [
+      "camera",
+      "display",
+      "battery"
+    ],
+    "description": "Camera-focused smartphone with a vibrant display and all-day battery."
+  },
+  {
+    "id": 5,
+    "name": "PowerMax 5G",
+    "category": "phone",
+    "price": 24999,
+    "rating": 4.5,
+    "tags": [
+      "battery",
+      "gaming",
+      "display"
+    ],
+    "description": "5G smartphone optimized for battery life, entertainment and performance."
+  },
+  {
+    "id": 6,
+    "name": "UltraCam Pro",
+    "category": "phone",
+    "price": 32999,
+    "rating": 4.8,
+    "tags": [
+      "camera",
+      "premium",
+      "display"
+    ],
+    "description": "Premium smartphone designed for photography and high-quality media."
+  },
+  {
+    "id": 7,
+    "name": "SoundFlow ANC",
+    "category": "headphones",
+    "price": 4499,
+    "rating": 4.7,
+    "tags": [
+      "wireless",
+      "battery",
+      "premium"
+    ],
+    "description": "Wireless noise-cancelling headphones with long battery life."
+  },
+  {
+    "id": 8,
+    "name": "BassLite Wireless",
+    "category": "headphones",
+    "price": 2499,
+    "rating": 4.4,
+    "tags": [
+      "wireless",
+      "battery"
+    ],
+    "description": "Affordable wireless headphones for everyday listening."
+  },
+  {
+    "id": 9,
+    "name": "FitTrack Pro",
+    "category": "smartwatch",
+    "price": 5999,
+    "rating": 4.5,
+    "tags": [
+      "battery",
+      "premium"
+    ],
+    "description": "Smartwatch with fitness tracking and long battery life."
+  },
+  {
+    "id": 10,
+    "name": "TabNote Air",
+    "category": "tablet",
+    "price": 22999,
+    "rating": 4.6,
+    "tags": [
+      "display",
+      "lightweight"
+    ],
+    "description": "Lightweight tablet designed for study, entertainment and note-taking."
+  }
+]

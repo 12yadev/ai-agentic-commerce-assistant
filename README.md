@@ -1,9 +1,39 @@
-# ai-agentic-commerce-assistant
-Project Name / Title
-AI-Powered Agentic Commerce Assistant
+# AI-Powered Agentic Commerce Assistant
 
-Project Objectives
-Build an AI-powered commerce agent that understands user requirements, recommends suitable products/services, compares options, and assists users through personalized, intelligent purchase decisions. The goal is to reduce search time, improve customer experience, and enable businesses to increase conversions through AI-driven recommendations.
+An AI-inspired agentic commerce web application that converts a natural-language shopping request into structured preferences, filters a product catalog, ranks products, and explains recommendations.
 
-What does it solve?
-It solves the problem of information overload and time-consuming product discovery. Instead of manually searching, comparing, and evaluating multiple options, users can interact with an AI agent that understands their intent, analyzes available choices, and provides personalized recommendations.
+## Features
+- Natural-language shopping assistant
+- Intent extraction: category, budget, preferences and use case
+- Product filtering and scoring
+- Transparent recommendation reasons
+- Compare products
+- Responsive web UI
+- REST API backend
+- No paid API required for the demo
+
+## Tech Stack
+- Frontend: HTML, CSS, JavaScript
+- Backend: Python + Flask
+- Data: JSON product catalog
+- Agent workflow: Intent -> Retrieve -> Rank -> Explain
+
+## Run locally
+
+```bash
+pip install -r requirements.txt
+python app.py
+```
+
+Open http://127.0.0.1:5000
+
+## Example prompts
+- "I need a laptop for coding under 70000"
+- "Show me wireless headphones under 5000 with good battery"
+- "I want a phone under 30000 with a good camera"
+
+## Architecture
+User -> Intent Agent -> Product Retrieval -> Ranking Agent -> Recommendation Explanation -> UI
+
+## GitHub
+This project is designed as a hackathon-ready prototype. Replace the demo catalog or connect an LLM/API later for production-grade natural-language reasoning.
